@@ -1,0 +1,633 @@
+<mxfile host="app.diagrams.net" modified="2023-05-11T05:53:42.585Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="4zbArFu4J23kZIIzwS17" version="21.2.9" type="github">
+  <diagram name="Page-1" id="ysFtoszA9FctMGMielOi">
+    <mxGraphModel dx="2284" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-9" target="a0tc1JQQof9T2kWk41Yc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-9" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-11" target="a0tc1JQQof9T2kWk41Yc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-142" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-136">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-11" target="a0tc1JQQof9T2kWk41Yc-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-186" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-148">
+          <mxGeometry x="-0.2093" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-11" value="入参合法性判定" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="160" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-12" target="a0tc1JQQof9T2kWk41Yc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-143" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-135">
+          <mxGeometry x="-0.1489" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-12" target="a0tc1JQQof9T2kWk41Yc-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-145" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-144">
+          <mxGeometry x="-0.1598" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-12" value="入参有效性校验&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="336" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-13" target="a0tc1JQQof9T2kWk41Yc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-13" value="获取会议室基础信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-14" target="a0tc1JQQof9T2kWk41Yc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-169" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-133">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-14" target="a0tc1JQQof9T2kWk41Yc-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-172" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-170">
+          <mxGeometry x="-0.1793" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-14" value="校验预约时间是否在会议室开放时间内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="610" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-15" target="a0tc1JQQof9T2kWk41Yc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-15" value="获取当前会议室为结束的会议预约列表records，用于判定冲突" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-19" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-17">
+          <mxGeometry x="0.2031" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-16" target="a0tc1JQQof9T2kWk41Yc-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-187" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-130">
+          <mxGeometry x="-0.2443" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-16" value="判定当前预约是否是重复预约会议" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="850" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-18" target="a0tc1JQQof9T2kWk41Yc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-18" value="循环已预约列表和当前预约记录进行对比，确认该时段是否可以预约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-22" target="a0tc1JQQof9T2kWk41Yc-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-33" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-31">
+          <mxGeometry x="0.0167" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-22" target="a0tc1JQQof9T2kWk41Yc-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-34" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-32">
+          <mxGeometry x="-0.025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-22" value="判定结束时间&amp;lt;=当前请求的开始时间&lt;br&gt;or&lt;br&gt;开始时间&amp;gt;=请求的结束时间" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="855" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-27" target="a0tc1JQQof9T2kWk41Yc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-27" value="基础数据准备，获取工作日数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-28" target="a0tc1JQQof9T2kWk41Yc-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1130" />
+              <mxPoint x="560" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-28" target="a0tc1JQQof9T2kWk41Yc-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-28" value="循环已预约列表和当前预约记录进行对比，确认该时段是否可以预约" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1100" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-30" target="a0tc1JQQof9T2kWk41Yc-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-30" value="&amp;nbsp; &amp;nbsp; 该时段无法预约，&lt;br&gt;请重新预约" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-35" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112" y="2330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-36" target="a0tc1JQQof9T2kWk41Yc-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-184" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-56">
+          <mxGeometry x="-0.1208" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-36" target="a0tc1JQQof9T2kWk41Yc-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-185" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-102">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-36" value="判定结束时间&amp;lt;=当前请求的开始时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;or&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;开始时间&amp;gt;=请求的结束时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1075" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-38" target="a0tc1JQQof9T2kWk41Yc-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-38" value="生成重复预约记录的时间和已预约记录进行判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-77" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-39" target="a0tc1JQQof9T2kWk41Yc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-39" target="a0tc1JQQof9T2kWk41Yc-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-159" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-103">
+          <mxGeometry x="0.1657" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-39" value="if repeatType = 1&lt;br&gt;按天重复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1235" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-40" target="a0tc1JQQof9T2kWk41Yc-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-160" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-84">
+          <mxGeometry x="-0.0286" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-40" target="a0tc1JQQof9T2kWk41Yc-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-161" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-104">
+          <mxGeometry x="0.2941" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-40" value="if repeatType = 2&lt;br&gt;按周重复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1510" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-41" target="a0tc1JQQof9T2kWk41Yc-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-163" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-105">
+          <mxGeometry x="0.1385" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-41" target="a0tc1JQQof9T2kWk41Yc-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-162" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-111">
+          <mxGeometry x="-0.0333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-41" value="if repeatType = 3&lt;br&gt;按月重复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1780" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-42" target="a0tc1JQQof9T2kWk41Yc-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-164" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-98">
+          <mxGeometry x="-0.1077" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.192;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-42" target="a0tc1JQQof9T2kWk41Yc-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="423" y="2125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-166" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-165">
+          <mxGeometry x="-0.7836" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-42" value="if repeatType = 4&lt;br&gt;按工作日重复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2075" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-43" target="a0tc1JQQof9T2kWk41Yc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-82" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-71">
+          <mxGeometry x="-0.5454" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-43" target="a0tc1JQQof9T2kWk41Yc-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-86" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-81">
+          <mxGeometry x="0.1" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-43" value="生成时间是否超范围&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;生成的时间的年份 != 当前年份&lt;br&gt;or&lt;br&gt;生成时间的月份 &amp;gt; 月份+6&lt;br&gt;or&lt;br&gt;当生成时间的月份 == 月份+6&lt;br&gt;&amp;nbsp;生成日期 &amp;gt;预约日期&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1195" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-44" target="a0tc1JQQof9T2kWk41Yc-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1660" y="1170" />
+              <mxPoint x="997" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-85" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-46">
+          <mxGeometry x="-0.1361" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-44" target="a0tc1JQQof9T2kWk41Yc-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-89" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-88">
+          <mxGeometry x="-0.4571" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-44" value="生成日期 != 当前记录日期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1227.5" width="300" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-48" target="a0tc1JQQof9T2kWk41Yc-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-48" value="&amp;nbsp; &amp;nbsp; 该时段无法预约，&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;请重新预约" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="1086" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-49" target="a0tc1JQQof9T2kWk41Yc-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-49" value="生成重复预约记录的时间和已预约记录进行判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-50" target="a0tc1JQQof9T2kWk41Yc-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="1680" />
+              <mxPoint x="470" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-83" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-72">
+          <mxGeometry x="-0.6816" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-174" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-50" target="a0tc1JQQof9T2kWk41Yc-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-50" value="生成时间是否超范围&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;生成的时间的年份 != 当前年份&lt;br&gt;or&lt;br&gt;生成时间的月份 &amp;gt; 月份+6&lt;br&gt;&lt;/font&gt;or&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;当生成时间的月份 == 月份+6&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;生成日期 &amp;gt;预约日期&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1470" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-51" target="a0tc1JQQof9T2kWk41Yc-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680" y="1460" />
+              <mxPoint x="1000" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-60" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-59">
+          <mxGeometry x="-0.335" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-61" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-51" target="a0tc1JQQof9T2kWk41Yc-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-51" value="生成日期 != 当前记录日期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1500" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-52" target="a0tc1JQQof9T2kWk41Yc-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-91" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-69">
+          <mxGeometry x="-0.7684" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-52" target="a0tc1JQQof9T2kWk41Yc-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="1440" />
+              <mxPoint x="970" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-179" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-178">
+          <mxGeometry x="-0.5706" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-52" value="判定结束时间&amp;lt;=当前请求的开始时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;or&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;开始时间&amp;gt;=请求的结束时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1489" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-53" target="a0tc1JQQof9T2kWk41Yc-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-90" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-70">
+          <mxGeometry x="-0.6879" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-53" target="a0tc1JQQof9T2kWk41Yc-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2020" y="1180" />
+              <mxPoint x="1040" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-177" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-176">
+          <mxGeometry x="-0.7193" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-53" value="判定结束时间&amp;lt;=当前请求的开始时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;or&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;开始时间&amp;gt;=请求的结束时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1215" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-55" target="a0tc1JQQof9T2kWk41Yc-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-55" value="循环后续6个月&lt;br&gt;生成重复预约记录的时间和已预约记录进行判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.425;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-57" target="a0tc1JQQof9T2kWk41Yc-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-175" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-74">
+          <mxGeometry x="-0.5625" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-57" target="a0tc1JQQof9T2kWk41Yc-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-173" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-96">
+          <mxGeometry x="-0.1667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-57" value="生成时间是否超范围&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;生成的时间的年份 != 当前年份&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1755" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-58" target="a0tc1JQQof9T2kWk41Yc-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="1720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1680" y="1730" />
+              <mxPoint x="990" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-95" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-73">
+          <mxGeometry x="-0.5436" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-58" target="a0tc1JQQof9T2kWk41Yc-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-94" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-93">
+          <mxGeometry x="-0.32" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-58" value="当月没有此日期（1.31，但是2月没有31）&lt;br&gt;or&lt;br&gt;生成时间的月份 != 当前记录的月份&lt;br&gt;or&lt;br&gt;生成时间的日期 != 当前记录的日期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1755" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-62" target="a0tc1JQQof9T2kWk41Yc-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-92" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-64">
+          <mxGeometry x="-0.1964" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-62" target="a0tc1JQQof9T2kWk41Yc-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2080" y="1710" />
+              <mxPoint x="960" y="1710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-181" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-180">
+          <mxGeometry x="-0.573" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-62" value="判定结束时间&amp;lt;=当前请求的开始时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;or&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;开始时间&amp;gt;=请求的结束时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="1760" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-63" target="a0tc1JQQof9T2kWk41Yc-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-63" value="部分会议室无法预约，确定保存吗" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="1779" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-65" target="a0tc1JQQof9T2kWk41Yc-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-65" value="循环工作日记录&lt;br&gt;生成重复预约记录的时间和已预约记录进行判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="2095" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-66" target="a0tc1JQQof9T2kWk41Yc-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-112" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-97">
+          <mxGeometry x="-0.2526" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-66" target="a0tc1JQQof9T2kWk41Yc-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="1990" />
+              <mxPoint x="995" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-107" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-106">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-66" value="生成时间是否超范围&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;工作日月份 == 请求的月份 &amp;amp;&amp;amp; 工作日日期 &amp;lt; 请求的日期&lt;br&gt;or&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;工作月份==请求的月份+6 &amp;amp;&amp;amp;工作日日期 &amp;gt; 请求的日期&lt;br&gt;or&lt;br&gt;&lt;/font&gt;生成时间的月份 != 当前记录的月份&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;or&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;生成时间的日期 != 当前记录的日期&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="2020" width="480" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-67" target="a0tc1JQQof9T2kWk41Yc-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-101" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-68">
+          <mxGeometry x="-0.6871" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-67" target="a0tc1JQQof9T2kWk41Yc-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1950" y="2250" />
+              <mxPoint x="995" y="2250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-183" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-182">
+          <mxGeometry x="-0.9602" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-67" value="判定结束时间&amp;lt;=当前请求的开始时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;or&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;开始时间&amp;gt;=请求的结束时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="2055" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-113" target="a0tc1JQQof9T2kWk41Yc-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-113" value="生成当前预约记录&lt;br&gt;注：一条记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1180.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="a0tc1JQQof9T2kWk41Yc-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="172" y="2055" as="sourcePoint" />
+            <mxPoint x="170.96000000000004" y="2248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-114" value="go 发送数据到kafka，处理会议预约保存的用户数据及发送消息通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1995" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-115" target="a0tc1JQQof9T2kWk41Yc-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-156" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-121">
+          <mxGeometry x="-0.2131" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.01;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-115" target="a0tc1JQQof9T2kWk41Yc-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-155" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a0tc1JQQof9T2kWk41Yc-123">
+          <mxGeometry x="-0.1083" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-115" value="判定是否是重复会议" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1446" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-116" target="a0tc1JQQof9T2kWk41Yc-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-116" value="插入当前预约数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1342.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-117" target="a0tc1JQQof9T2kWk41Yc-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-117" value="根据规则生成后续的预约会议记录。。。（将当前插入的数据ID作为同一分组的ID）&lt;br&gt;&lt;br&gt;生成规则和校验规则一致，符合条件的生成repeatRecords记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1450" width="230" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-118" target="a0tc1JQQof9T2kWk41Yc-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-118" value="插入repeatRecords" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-120" target="a0tc1JQQof9T2kWk41Yc-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-120" value="更新当前预约数据的PID为当前数据的ID，保证当前重复会议在同一个组内" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-138" target="a0tc1JQQof9T2kWk41Yc-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-138" value="meeting_room_id require&lt;br&gt;begin_time require&lt;br&gt;end_time require" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="182" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.342;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-140" target="a0tc1JQQof9T2kWk41Yc-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-140" value="会议主题最多30个汉字&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;参会人员为空&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/u&gt;&lt;/i&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;开始时间不可以大于结束时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;不可预约过去时间会议室（endtime&amp;lt;now）&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1242.5" y="340.5" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-147" target="a0tc1JQQof9T2kWk41Yc-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="2400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2690" y="2370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-147" value="返回报错信息" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="1094" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-157" target="a0tc1JQQof9T2kWk41Yc-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-157" value="ok" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="112" y="2140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="a0tc1JQQof9T2kWk41Yc-167" target="a0tc1JQQof9T2kWk41Yc-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0tc1JQQof9T2kWk41Yc-167" value="预约时间不在会议室开放时间" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="630" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
